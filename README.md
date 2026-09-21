@@ -1,16 +1,21 @@
-## Hi there 👋
+### Hi, I'm Usman Aleem 👋
 
-<!--
-**usman-aleem/usman-aleem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+IT Student & Aspiring Software Developer — Rahim Yar Khan, Pakistan
 
-Here are some ideas to get you started:
+I'm a solo Flutter developer who learns by shipping — four real client apps built end to end:
+requirements, architecture decisions, implementation, and a production checklist before anything
+ships. Currently building backend depth with Python and FastAPI, moving toward Generative AI and
+AI security engineering.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Core stack**
+Flutter · Dart · Python · FastAPI · Firebase · PostgreSQL · Git & GitHub
+
+**Currently learning**
+Generative AI Engineering · AI Security · RAG pipelines
+
+**Find me**
+- Portfolio — [add link once live]
+- LinkedIn — linkedin.com/in/usman-aleem-201602434
+- Email — usmanaleemdev@gmail.com
+
+Open to freelance work and junior developer roles.
