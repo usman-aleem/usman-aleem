@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-bg: #0C0C0E;
+  --c-surface: #111113;
+  --c-surface2: #17171A;
+  --c-line: #232326;
+  --c-ink: #F3F1EC;
+  --c-muted: #9C978D;
+  --c-muted2: #6B6862;
+}
+
+.light {
+  --c-bg: #FAF9F6;
+  --c-surface: #FFFFFF;
+  --c-surface2: #F0EEE9;
+  --c-line: #E2DFD8;
+  --c-ink: #14120F;
+  --c-muted: #605C54;
+  --c-muted2: #8C877D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--c-bg);
+  color: var(--c-ink);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background: rgba(124, 92, 252, 0.35);
+  color: var(--c-ink);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--c-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--c-line);
+  border-radius: 6px;
+}
+
+:focus-visible {
+  outline: 2px solid #7C5CFC;
+  outline-offset: 3px;
+}
+
+.grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.cc-active,
+.cc-active a,
+.cc-active button {
+  cursor: none !important;
+}
